@@ -39,11 +39,11 @@ SELECT * FROM patients WHERE age > 40 OR city = 'Atlanta';
 -- 5. View all patients except those in Columbus -> USE ' WHERE NOT'
 SELECT * FROM patients WHERE NOT city = 'Columbus';
 
--- 6. view ages 20 and 50
+-- 6. view ages between 20 and 50 (range)
 SELECT * FROM patients WHERE age BETWEEN 20 AND 50;
 -- NB. BETWEEN will include 20 and 50
 
--- 7. Provind a specific set of numbers
+-- 7. Provide a specific set of numbers
 SELECT * FROM patients WHERE age IN (25, 36);
 SELECT * FROM patients WHERE age IN (25, 62, 68);
 
