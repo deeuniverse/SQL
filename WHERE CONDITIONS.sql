@@ -1,7 +1,7 @@
 -- WHERE CLAUSE OR STATEMENTS 
 -- WHERE CLUASE; Used to filter records based on a conditons
 -- SELECT Column 1, Column 2 FROM Table WHERE conditon;
--- We wil create a table and then demonstrate how to use 'where'
+-- We will create a table and then demonstrate how to use 'where'
 
 CREATE DATABASE hospital_records;
 USE hospital_records;
