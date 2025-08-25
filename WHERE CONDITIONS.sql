@@ -59,3 +59,6 @@ SELECT * FROM patients WHERE state LIKE '%a';
 SELECT * FROM patients WHERE city LIKE '%s';
 
 -- NB. % is a place holder
+/* WILD CARDS
+A wild card character in SQL is used with the LIKE clause to replace a single character
+or a set of characters in a string*/
